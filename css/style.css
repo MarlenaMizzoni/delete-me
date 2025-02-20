@@ -15,7 +15,7 @@ body {
   background: var(--gradient-21);
 }
   
-main section:hover {
+section {
 
-  background: red;
+  animation: var(--animation-fade-in) 1s;
 }
