@@ -1,11 +1,21 @@
-/* Diagnostic Styling */
+@import "https://unpkg.com/open-props";
+
+
+
+
 * {
   outline: 2px dotted gray;
 } 
 
 
 /* temp background color */
+
+
 body {
-    background: peachpuff;
-  }
+  background: var(--gradient-21);
+}
   
+main section:hover {
+
+  background: red;
+}
